@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<!-- saved from url=(0042)https://pointful.github.io/docker-intro/#/ -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		
 
 		<title>Intro to Docker</title>
 
 		<meta name="description" content="Intro to Docker">
-		<meta name="author" content="Docker Inc, adapted by John Lewis">
+		<meta name="author" content="Docker Inc, adapted by J">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -38,11 +38,7 @@
 		<img src="./Intro to Docker_files/docker.png" style="width: 432px; height: 376px; max-height: none; max-width: none;">
 		<br>
 	</div>
-	<div>
-		The contents of the the slides have been stol..., umm, <br>
-		<i>liberally borrowed</i> from <a href="http://www.slideshare.net/dotCloud">Docker Slideshare</a> materials.<br>
-		Thanks to everyone at Docker, Inc!
-	</div>
+	
 </section>
 		
 <section hidden="" class="future" style="top: -321.5px; display: block;">
@@ -156,47 +152,7 @@
 	</p>
 </section>
 
-<section hidden="" class="future" style="top: -20px; display: none;">
-	<h2>More Technical Details</h2>
-	<div style="position: absolute; left: 1%; top: 100px; width: 48%;" class="absolute-element">
-		<p><b>Why</b></p>
-		<ul style="text-align: left; line-height=1.1em;">
-			<li class="fragment" data-fragment-index="0">Run everywhere</li>
-			<ul style="font-size: 24px;" class="fragment" data-fragment-index="0">
-				<li>Regardless of kernel version</li>
-				<li>Regardless of host distro</li>
-				<li>Physical or virtual, cloud or not</li>
-				<li>Container and host architecture must match...</li>
-			</ul>
-			<li class="fragment" data-fragment-index="1">Run anything</li>
-			<ul style="font-size: 24px;" class="fragment" data-fragment-index="1">
-				<li>If it can run on the host, it can run in the container</li>
-				<li>If it can on a Linux kernel, it can run</li>
-			</ul>
-		</ul>
-	</div>
-	<div style="position: absolute; left: 52%; top: 100px; width: 48%;" class="absolute-element">
-		<p><b>What</b></p>
-		<ul style="text-align: left; line-height=1.1em;">
-			<li class="fragment" data-fragment-index="2">High level: a lightweight VM</li>
-			<ul style="font-size: 24px;" class="fragment" data-fragment-index="2">
-				<li>Own process space</li>
-				<li>Own network interface</li>
-				<li>Can run stuff as root</li>
-				<li>Can have its own /sbin/init (different from host)</li>
-				<li>&lt;&lt;machine container&gt;&gt;</li>
-			</ul>
-			<li class="fragment" data-fragment-index="3">Low level: chroot on steroids</li>
-			<ul style="font-size: 24px;" class="fragment" data-fragment-index="3">
-				<li>Can also <i>not </i>have its own /sbin/init</li>
-				<li>Container = isolated processes</li>
-				<li>Share kernel with host</li>
-				<lino device="" emulation<="" li="">
-				<li>&lt;&lt;application container&gt;&gt;</li>
-			</lino></ul>
-		</ul>
-	</div>
-</section>
+
 
 <section hidden="" class="future" style="top: -20px; display: none;">
 	<h2>VMs vs Containers</h2>
